@@ -1,0 +1,13 @@
+# floxus-assignment
+
+The table with id="age-table" - document.getElementById("age-table")
+
+All label elements inside that table (there should be 3 of them) - document.getElementsByTagName("td")[1].getElementsByTagName("Label")
+
+The first td in that table (with the word “Age”) - document.getElementsByTagName("td")[0]
+
+The form with name="search" - document.getElementsByName("search")[0]
+
+The first input in that form - document.getElementsByTagName("input")[0]
+
+The last input in that form - document.getElementsByTagName("input")[document.getElementsByTagName("input").length-1]

@@ -22,7 +22,8 @@ ANSWER - form1 = document.querySelector("form")
 
 5. The first input in that form.
 
-form1.querySelectorAll("input")
+form1.querySelectorAll("input") 
+<!-- To list all the input and 0 will give first and last will be given by last number of that list here 1 -->
 
 ANSWER - form1[0]
 

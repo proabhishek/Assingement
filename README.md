@@ -4,14 +4,29 @@ Link:  https://javascript.info/task/find-elements/table.html
 
 How to find?…
 
-The table with id="age-table".
+1. The table with id="age-table". 
 
-All label elements inside that table (there should be 3 of them).
+ANSWER - ageTable = document.getElementById("age-table")
 
-The first td in that table (with the word “Age”).
+2. All label elements inside that table (there should be 3 of them).
 
-The form with name="search".
+ANSWER - ageTable.querySelectorAll("label")
 
-The first input in that form.
+3. The first td in that table (with the word “Age”).
 
-The last input in that form.
+ANSWER - ageTable.querySelector("td")
+
+4. The form with name="search".
+
+ANSWER - form1 = document.querySelector("form") 
+
+5. The first input in that form.
+
+form1.querySelectorAll("input")
+
+ANSWER - form1[0]
+
+6. The last input in that form.
+
+ANSWER - form1[1]
+  
